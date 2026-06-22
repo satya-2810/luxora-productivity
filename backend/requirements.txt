@@ -25,7 +25,6 @@ setuptools==82.0.1
 SQLAlchemy==2.0.50
 starlette==1.3.1
 svgwrite==1.4.3
-Tree==0.2.4
 typing-inspection==0.4.2
 typing_extensions==4.15.0
 uvicorn==0.49.0

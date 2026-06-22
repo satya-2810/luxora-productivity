@@ -44,7 +44,6 @@ import {
 function DashboardLayout() {
   const {
     slots,
-    addSlotFromThought,
     setSlots,
     mobileDrawerOpen,
     closeMobileDrawer,
