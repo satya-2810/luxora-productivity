@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: luxora_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: luxora_user
+      POSTGRES_PASSWORD: luxora_password
+      POSTGRES_DB: luxora_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
